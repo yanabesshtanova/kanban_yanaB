@@ -1,0 +1,99 @@
+.list {
+    width: 275px;
+    max-height: 80vh;
+    margin-bottom: 20px;
+    padding: 7px;
+    background-color: #EBECF0;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 21px;
+    overflow-y: auto;
+}
+
+.list li {
+    list-style: none;
+}
+
+.list a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.title {
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 12px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.item {
+    margin: 15px 12px 0 12px;
+    padding: 7px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button {
+    margin: 17px 0 8px 14px;
+    border: none;
+    color: #5E6C84;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: red;
+}
+
+.button:disabled {
+    cursor: auto;
+    color: #bec6d4;;
+}
+
+@media (max-width: 450px) {
+    .item {
+        max-height: 500px;
+    }
+}
+
+.newTask {
+    display: flex;
+    flex-direction: column;
+}
+
+.newTask input {
+    padding: 7px;
+    border: none;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.newTask button {
+    width: 102px;
+    height: 29px;
+    margin: 12px 0 7px 11px;
+    background-color: #0079BF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.newTask button:hover {
+    background-color: #21b5da;
+}
+
+.moveTask {
+    width: 258px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 21px;
+}

@@ -1,0 +1,28 @@
+.header {
+    height: 55px;
+    line-height: 55px;
+    padding: 0 20px;
+    background-color: #0067A3;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.title {
+    display: block;
+}
+
+.userMenu {
+    position: absolute;
+    top: 30px;
+    left: 1000px;
+}
+
+@media (max-width: 450px) {
+    .header {
+        background-color: #0079BF;
+    }
+
+    .title {
+        color: #0079BF;
+    }
+}

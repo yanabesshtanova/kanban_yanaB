@@ -1,0 +1,25 @@
+.footer {
+    height: 55px;
+    padding: 0 20px;
+    background-color: #0067A3;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statistics {
+    display: flex;
+}
+
+.finished {
+    margin-left: 36px;
+}
+
+@media (max-width: 660px) {
+    .footer {
+        display: none;
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "activeUserId": 1,
+    "users": [
+        {
+            "id": 1,
+            "name": "Besshtanova Yana",
+            "year": "2023"
+        }
+    ],
+    "tasks": [
+        {
+            "id": "1",
+            "name": "Задача 1",
+            "description": "Описание 1",
+            "type": 0
+        },
+        {
+            "id": "2",
+            "name": "Задача 2",
+            "description": "Описание 2",
+            "type": 0
+        },
+        {
+            "id": "3",
+            "name": "Задача 3",
+            "description": "Описание 3",
+            "type": 1
+        },
+        {
+            "id": "4",
+            "name": "Задача 4",
+            "description": "",
+            "type": 1
+        },
+        {
+            "id": "5",
+            "name": "Задача 5",
+            "description": "Описание 5",
+            "type": 1
+        },
+        {
+            "id": "6",
+            "name": "Задача 6",
+            "description": "Описание 6",
+            "type": 1
+        },
+        {
+            "id": "7",
+            "name": "Задача 7",
+            "description": "Описание 7",
+            "type": 2
+        },
+        {
+            "id": "8",
+            "name": "Задача 8",
+            "description": "Описание 8",
+            "type": 2
+        },
+        {
+            "id": "9",
+            "name": "Задача 9",
+            "description": "Описание 9",
+            "type": 3
+        },
+        {
+            "id": "10",
+            "name": "Задача 10",
+            "description": "Описание 10",
+            "type": 3
+        }
+    ]
+}
